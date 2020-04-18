@@ -1,0 +1,356 @@
+/* CORE */
+/* :root {
+  --primary-color: #e84c4f;
+  --secondary-color: #344356;
+} */
+
+h1,
+h2,
+h3,
+h4 {
+  color: #344356 !important;
+  font-weight: 800;
+}
+
+/* HOME SECTION */
+#home {
+  background-color: #ffffff;
+  padding-bottom: 5%;
+}
+
+#home .container {
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+#logo {
+  font-size: 2.5rem;
+  color: #e84c4f;
+  font-weight: 700;
+}
+
+#logo:hover {
+  color: #c82c2f;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  margin-left: 1.8rem;
+  color: #344356 !important;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  color: #2d63d9 !important;
+}
+
+#navbar {
+  padding: 2rem 0;
+}
+
+.showcase-content {
+  margin-top: 5rem;
+}
+
+.showcase-img {
+  margin-top: 1.5rem;
+}
+
+#showcase-heading {
+  font-weight: 800;
+  color: #344356;
+  font-size: 4rem;
+  line-height: 1.3;
+}
+
+#btn-lg {
+  background-color: #e84c4f;
+  color: #fff;
+  border-radius: 30px;
+  padding: 0.6rem 2rem;
+  font-weight: 650;
+  padding-bottom: 0.75rem;
+  margin-top: 1rem;
+}
+
+#btn-lg:hover {
+  background-color: #c82c2f;
+}
+
+/* DELIVERY */
+#delivery {
+  border-top: 8px solid #e84c4f;
+}
+
+#delivery .container {
+  height: 100%;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#delivery-content {
+  padding: 1rem 2rem;
+}
+
+#delivery-content > div h3 {
+  font-weight: 800;
+  color: #344356;
+}
+
+#delivery-content > div p {
+  color: #344356;
+  opacity: 0.75;
+  font-weight: 600;
+}
+
+#delivery-content > div {
+  margin: 1.3rem auto;
+}
+
+#delivery-content > div i {
+  color: #e84c4f;
+  margin-bottom: 1rem;
+}
+
+#delivery-content > div i:hover {
+  color: #c82c2f;
+}
+
+/* PRODUCT SECTION */
+#product {
+  background-color: #e84c4f;
+  text-align: center;
+  height: 100vh;
+  padding: 5.5rem 0;
+}
+
+#product .container {
+  height: 100%;
+}
+
+.product-content:nth-child(2) {
+  padding-top: 2rem;
+}
+
+.product-content:nth-child(3) {
+  padding-top: 3rem;
+}
+
+.product-content > img {
+  width: 45%;
+}
+
+.product-content p {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 800;
+  text-transform: capitalize;
+  padding: 1.5rem 14% 0;
+}
+
+/* PRICING */
+#pricing {
+  text-align: center;
+  height: 110vh;
+  display: grid;
+  place-content: center;
+}
+
+.pricing-title {
+  margin-bottom: 2.5rem;
+}
+
+.pricing-title h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-title p {
+  padding: 0 20%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #344356;
+  opacity: 0.9;
+}
+
+.price-heading > span {
+  font-size: 1.6rem;
+  font-weight: 720;
+  opacity: 0.8;
+}
+
+.pricing-card {
+  line-height: 2;
+  margin: 1rem;
+}
+
+#scale {
+  transform: scale(1.07);
+}
+
+.pricing-card p {
+  color: #344356;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+}
+
+.order-btn {
+  background-color: #344356;
+  opacity: 0.8;
+  color: #fff;
+  border: none;
+  font-weight: 650;
+}
+
+.order-btn:hover {
+  background-color: #344356;
+  opacity: 1;
+}
+
+.btn-outline-primary {
+  color: #344356;
+  font-weight: 650;
+  border: 2px solid #344356;
+  opacity: 0.95;
+}
+
+.btn-outline-primary:hover {
+  opacity: 1;
+  background-color: #344356;
+  color: #fff;
+  border: 2px solid #344356;
+}
+
+/* DOWNLOAD SECTION */
+#download {
+  border-top: 8px solid #344356;
+  padding: 10% 0;
+}
+
+#download .container {
+  margin: auto;
+  text-align: center;
+}
+
+#download .container > h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+#download .container .download-btn {
+  background-color: #e84c4f;
+  border: none;
+  padding: 0.67rem 1.6rem;
+  font-weight: 650;
+  margin-right: 1.6rem;
+}
+
+#download .container .download-btn:hover {
+  background-color: #c82c2f;
+}
+
+#download .container .download-btn-1 {
+  padding: 0.6rem 1.5rem;
+  font-weight: 650;
+  border: 2px solid #e84c4f;
+  color: #e84c4f;
+}
+
+#download .container .download-btn-1:hover {
+  background-color: #c82c2f;
+  border-color: #c82c2f;
+  color: #fff;
+}
+
+/* FOOOTER SECTION */
+#main-footer {
+  background-color: #344356;
+  padding: 3rem 0 2rem;
+  text-align: center;
+  color: #eee;
+}
+
+#main-footer .container a > .fab {
+  color: #bbb;
+  font-size: 1.8rem;
+  margin: 1rem 0.6rem;
+}
+
+#main-footer .container a > .fab:hover {
+  color: #fff;
+}
+
+#creator {
+  font-size: 1.1rem;
+  color: #bbb;
+}
+
+#creator a {
+  border-bottom: dotted 2px #bbb;
+  color: #aaa;
+  text-decoration: none;
+}
+
+#creator a:hover {
+  color: #bbb;
+}
+
+#copy {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 1.5rem;
+}
+
+/* SMALLER DEVICES */
+@media (max-width: 1050px) {
+  #home {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .showcase-content {
+    margin-top: 0.4rem;
+  }
+
+  #showcase-heading {
+    font-size: 3.5rem;
+  }
+
+  .showcase-img {
+    margin: 2.1rem auto;
+  }
+
+  #product {
+    background-color: #e84c4f;
+    text-align: center;
+    height: 100%;
+    padding: 10% 0;
+  }
+
+  #pricing {
+    height: 100%;
+    padding: 10% 0;
+  }
+
+  #scale {
+    transform: scale(1);
+  }
+
+  .pricing-card {
+    margin: 2rem auto 1rem;
+  }
+}
+
+/* SMALLER DEVICES */
+@media (max-width: 500px) {
+  .product-content > img {
+    width: 100%;
+  }
+}

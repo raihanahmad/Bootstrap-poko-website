@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrapcdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/9650a62e47.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Roko | A Food Delivery Platform</title>
+  </head>
+
+  <body>
+    <!-- LANDING PAGE -->
+    <header id="home">
+      <div class="container">
+        <!-- navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+          <a id="logo" href="#home" class="navbar-brand">Poko</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#delivery">Delivery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- showcase -->
+        <div class="showcase row">
+          <div class="col-lg-4 showcase-content">
+            <h1 id="showcase-heading">
+              Delivery <br />
+              Tasty Food <br />
+              For You
+            </h1>
+            <button id="btn-lg" class="btn btn-lg">Eat Something</button>
+          </div>
+          <div class="col-lg-8 showcase-img">
+            <img src="img/showcase.png" alt="Delivery Image" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- FEATURES SECTION -->
+    <section id="delivery">
+      <div class="container">
+        <div id="delivery-content" class="row">
+          <div class="col-lg-4">
+            <i class="fas fa-plus-circle fa-4x"></i>
+            <h3>Esey To Order</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-shipping-fast fa-4x"></i>
+            <h3>Fast Delivery</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-check-circle fa-4x"></i>
+            <h3>Fresh Food</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT SECTION -->
+    <section id="product">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide container"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div id="slider">
+            <div class="product-content carousel-item active">
+              <img src="img/slider/burger.png" alt="burger" />
+              <p>Lorem ipsum dolor consectetur sit, amet adipisicing elit.</p>
+            </div>
+            <div class="product-content carousel-item">
+              <img src="img/slider/pizza.png" alt="pizza" />
+              <p>Lorem ipsum dolor consectetur sit, amet adipisicing elit.</p>
+            </div>
+            <div class="product-content carousel-item">
+              <img src="img/slider/hotdog-1.png" alt="hotdog" />
+              <p>Lorem ipsum dolor consectetur sit, amet adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing">
+      <div class="container">
+        <div class="pricing-title">
+          <h1>Pricing</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic facere
+            ab velit voluptate possimus. Veniam delectus quidem similique
+            aperiam at.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card pricing-card">
+              <div class="card-header">
+                <h3>Pizza</h3>
+              </div>
+              <div class="card-body">
+                <h1 class="price-heading">$2.40 <span>/ piece</span></h1>
+                <p>
+                  Lorem ipsum dolor sit amet <br />
+                  consectetur adipisicing elit. Voluptate, similique nesciunt
+                  amet dolor?
+                </p>
+                <button class="order-btn btn btn-lg btn-block btn-primary">
+                  Order Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="scale" class="col-lg-4 col-md-6">
+            <div class="card pricing-card">
+              <div class="card-header">
+                <h3>Burger</h3>
+              </div>
+              <div class="card-body">
+                <h1 class="price-heading">$3.99 <span>/ piece</span></h1>
+                <p>
+                  Lorem ipsum dolor sit amet <br />
+                  consectetur adipisicing elit. Voluptate, similique nesciunt
+                  amet dolor?
+                </p>
+                <button class="btn btn-lg btn-block btn-outline-primary">
+                  Order Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card pricing-card">
+              <div class="card-header">
+                <h3>Hotdog</h3>
+              </div>
+              <div class="card-body">
+                <h1 class="price-heading">$4.50 <span>/ piece</span></h1>
+                <p>
+                  Lorem ipsum dolor sit amet <br />
+                  consectetur adipisicing elit. Voluptate, similique nesciunt
+                  amet dolor?
+                </p>
+                <button class="order-btn btn btn-lg btn-block btn-primary">
+                  Order Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD SECTION -->
+    <section id="download">
+      <div class="container">
+        <h2>
+          Download our website app for you smartphone. This is really helpful
+        </h2>
+        <button class="download-btn btn-lg btn-primary">
+          <i class="fab fa-apple"></i> Download
+        </button>
+        <button class="download-btn-1 btn-lg btn-outline-primary">
+          <i class="fab fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer id="main-footer">
+      <div class="container">
+        <a href="https://twitter.com/raihanahmad01"
+          ><i class="fab fa-twitter-square"></i
+        ></a>
+        <a href="https://www.youtube.com/channel/UC200ks8sTUgKvocsIxpDAxA"
+          ><i class="fab fa-youtube-square"></i
+        ></a>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/raihanahmad01/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <p id="creator">
+          This site created by
+          <a href="https://raihanahmad.netlify.com/">Raihan Ahmad</a>
+        </p>
+        <p id="copy">&copy; All Right and Design Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
