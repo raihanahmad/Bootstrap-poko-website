@@ -126,8 +126,8 @@ img {
 #product {
   background-color: #e84c4f;
   text-align: center;
-  height: 100vh;
-  padding: 5.5rem 0;
+  /* height: 100vh; */
+  padding: 7rem 0;
 }
 
 #product .container {
@@ -157,7 +157,8 @@ img {
 /* PRICING */
 #pricing {
   text-align: center;
-  height: 110vh;
+  /* height: 110vh; */
+  padding: 7rem 0;
   display: grid;
   place-content: center;
 }
